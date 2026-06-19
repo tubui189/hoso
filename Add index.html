@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hồ sơ cá nhân</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+
+body{
+    background:#e9edf3;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.phone{
+    width:390px;
+    max-width:100%;
+}
+
+.header{
+    background:#14a7ff;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:20px 20px 0 0;
+    font-size:24px;
+    font-weight:600;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:0 0 20px 20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+}
+
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 25px;
+    border:4px solid #14a7ff;
+}
+
+.item{
+    margin-bottom:20px;
+}
+
+.label{
+    color:#777;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+.value{
+    font-size:22px;
+    font-weight:600;
+    color:#222;
+    word-break:break-word;
+}
+
+.footer{
+    margin-top:25px;
+    padding-top:20px;
+    border-top:1px solid #eee;
+    color:#777;
+    font-size:13px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="phone">
+
+    <div class="header">
+        Hồ sơ cá nhân
+    </div>
+
+    <div class="card">
+
+        <img
+            class="avatar"
+            src="https://via.placeholder.com/200"
+            alt="Avatar"
+        >
+
+        <div class="item">
+            <div class="label">Họ và tên</div>
+            <div class="value">Vũ Đức Trọng</div>
+        </div>
+
+        <div class="item">
+            <div class="label">Ngày sinh</div>
+            <div class="value">05/11/2007</div>
+        </div>
+
+        <div class="item">
+            <div class="label">Địa chỉ</div>
+            <div class="value">
+                Đồng Nai, Việt Nam
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="label">Số điện thoại</div>
+            <div class="value">
+                0123 456 789
+            </div>
+        </div>
+
+        <div class="footer">
+            Trang hồ sơ cá nhân tự tạo
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
